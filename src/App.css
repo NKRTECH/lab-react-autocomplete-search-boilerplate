@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 400px;
   background: linear-gradient(to right, #2c3e50, #bdc3c7);
 }
 
