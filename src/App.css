@@ -13,7 +13,7 @@ body {
 }
 
 .search-container {
-  position: relative; /* Add position:relative to make #autocomplete positioned relative to this */
+  position: relative;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 10px;
@@ -49,9 +49,6 @@ button:hover {
 }
 
 #autocomplete {
-  position: absolute;
-  top: 100%;
-  left: 0; /* Change left to 0 */
   width: 60%;
   max-height: 200px;
   overflow-y: auto;
@@ -60,6 +57,10 @@ button:hover {
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 5px; /* Adjust this margin to control the space between input and dropdown */
 }
 
 ul {
