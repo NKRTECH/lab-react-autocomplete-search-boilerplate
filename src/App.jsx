@@ -34,7 +34,6 @@ function App() {
 
   const handleButtonClick = () => {
     search(count);
-    console.log("Escape");
   }
 
   return (
