@@ -58,7 +58,7 @@ button:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: none;
   position: absolute;
-  top: 100%;
+  top: 50%;
   left: 0;
   margin-top: 5px; /* Adjust this margin to control the space between input and dropdown */
 }
